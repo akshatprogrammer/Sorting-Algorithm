@@ -23,8 +23,7 @@ int partition(int *a,int l,int r)
 }
 void swapp(int *a,int *b)
 {
-	int t;
-	t=*a;
+        int t=*a;
 	*a=*b; 
 	*b=t;
 }
